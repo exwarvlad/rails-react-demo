@@ -1,24 +1,15 @@
-# README
+# Description
+[Show on Heroku](https://morning-everglades-82050.herokuapp.com/)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![](public/images/example_sort_result.png)
 
-Things you may want to cover:
+Table with sortable columns in React
+* Name
+* Address
+* City
+* Region
+* Country
+* Birthday
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Data
+Application are using this [JSON](https://gist.github.com/NathanielWroblewski/bc9ddacbf60561bfa60e7283e8dda44d/raw/3346fd9e1550f5b2f13970c4fa08f40b28b09f01/data.json)
