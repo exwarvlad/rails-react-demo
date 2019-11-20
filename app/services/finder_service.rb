@@ -29,7 +29,7 @@ class FinderService
 
   def search_match(founder:, json_key:, param_value:)
     founder&.select do |hash|
-      hash[json_key] =~ /^#{param_value}/
+      hash[json_key].downcase =~ /^#{param_value.downcase}/
     end
   end
 end
